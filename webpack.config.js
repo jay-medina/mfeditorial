@@ -1,5 +1,5 @@
 const path = require('path');
-const webpack = require('webpack');
+const plugins = require('./buildFiles/plugins.js');
 
 const PATHS = {
   app: path.join(__dirname, 'app'),
@@ -10,7 +10,7 @@ module.exports = {
   entry: PATHS.app,
   output: {
     path: PATHS.build,
-    filename: 'bundle.js'
+    filename: '_bundle.js'
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
@@ -30,12 +30,5 @@ module.exports = {
           }
       ]
   },
-  plugins: [
-    new webpack.DefinePlugin({
-      "process.env": {
-        NODE_ENV: JSON.stringify("production")
-      }
-    }),
-    new webpack.optimize.UglifyJsPlugin()
-  ]
+  plugins: plugins.getPlugins()
 };
