@@ -10,7 +10,7 @@ module.exports = {
   entry: PATHS.app,
   output: {
     path: PATHS.build,
-    filename: '_bundle.js'
+    filename: 'bundle.js'
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
