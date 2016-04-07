@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 const PATHS = {
   app: path.join(__dirname, 'app'),
@@ -30,5 +31,6 @@ module.exports = {
       ]
   },
   plugins: [
+    new webpack.optimize.UglifyJsPlugin()
   ]
 };
