@@ -1,0 +1,6 @@
+.mainContainer {
+  background-image: url('/images/book_cover.jpg');
+  padding: 12em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

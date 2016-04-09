@@ -4,6 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './Header.jsx';
 import NavMenu from './NavMenu.jsx';
+import MainContainer from './MainContainer.jsx';
 
 const Body = React.createClass({
   render() {
@@ -11,6 +12,7 @@ const Body = React.createClass({
       <div>
         <Header />
         <NavMenu />
+        <MainContainer />
       </div>
     );
   }
