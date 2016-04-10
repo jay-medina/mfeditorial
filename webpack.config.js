@@ -3,7 +3,8 @@ const plugins = require('./buildFiles/plugins.js');
 
 const PATHS = {
   app: path.join(__dirname, 'app'),
-  build: __dirname
+  build: __dirname,
+  images: __dirname
 };
 
 module.exports = {
@@ -27,6 +28,11 @@ module.exports = {
             query: {
               presets: ['es2015', 'react']
             }
+          },
+          {
+            test: /\.(jpg|png)$/,
+            loader: 'url',
+            include: PATHS.images
           }
       ]
   },
