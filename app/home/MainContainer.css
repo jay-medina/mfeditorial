@@ -1,5 +1,5 @@
 .mainContainer {
-  background-image: url('../images/book_cover.jpg');
+  background-image: url('/images/book_cover.jpg');
   padding: 6em;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
 }
 
 .mainContainer .mercyImage {
-  background-image: url('../images/mercedes.jpg');
+  background-image: url('/images/mercedes.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 4em;
