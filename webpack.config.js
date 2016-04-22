@@ -5,7 +5,8 @@ const PATHS = {
   app: path.join(__dirname, 'home/index.jsx'),
   about: path.join(__dirname, 'about/index.jsx'),
   contact: path.join(__dirname, 'contact/index.jsx'),
-  build: path.join(__dirname, 'dist')
+  build: path.join(__dirname, 'dist'),
+  publicPath: 'dist/'
 };
 
 module.exports = {
@@ -17,6 +18,7 @@ module.exports = {
   },
   output: {
     path: PATHS.build,
+    publicPath: PATHS.publicPath,
     filename: '[name].js'
   },
   resolve: {
