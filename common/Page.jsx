@@ -1,10 +1,12 @@
+import './index.css';
+
 import React from 'react';
 import Header from '../common/Header.jsx';
 import NavMenu from '../common/NavMenu.jsx';
 import Contact from './Contact.jsx';
 import Footer from '../common/Footer.jsx';
 
-const Home = React.createClass({
+const Page = React.createClass({
   render() {
     return (
       <div>
@@ -18,4 +20,4 @@ const Home = React.createClass({
   }
 });
 
-export default Home;
+export default Page;

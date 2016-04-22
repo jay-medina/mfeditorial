@@ -1,7 +1,6 @@
 import './Contact.css';
 
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 const ContactContainer = React.createClass({
   render() {

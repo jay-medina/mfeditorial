@@ -6,7 +6,7 @@ const Footer = React.createClass({
   render() {
     return (
       <div className="footer">
-        Created By <a target="_blank" href="https://twitter.com/mrfunkycold">Jose M. Medina</a>
+        Created by <a target="_blank" href="https://twitter.com/mrfunkycold">Jose M. Medina</a>
       </div>
     );
   }

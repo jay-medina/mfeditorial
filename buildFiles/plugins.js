@@ -6,7 +6,7 @@ function forProduction() {
 }
 
 function getPlugins() {
-  
+
   if(forProduction()){
     return [
       new webpack.DefinePlugin({
@@ -14,7 +14,11 @@ function getPlugins() {
           NODE_ENV: JSON.stringify("production")
         }
       }),
-      new webpack.optimize.UglifyJsPlugin()
+      new webpack.optimize.UglifyJsPlugin(),
+      new webpack.optimize.CommonsChunkPlugin({
+        name: 'vendor',
+        chunks: ['vendor']
+      })
     ];
   }
 
