@@ -1,4 +1,5 @@
 import React from 'react';
+import DomainPath from '../buildFiles/DomainPath.js';
 
 function removeSlashes(value) {
   return value.replace(/\//g, '');
@@ -8,7 +9,10 @@ const NavLink = React.createClass({
   render() {
     this.getClassName();
 
-    return <a href={this.props.to} className={this.getClassName()} onClick={this.onClick}>{this.props.children}</a>;
+    return <a href={this.getHref()} className={this.getClassName()} onClick={this.onClick}>{this.props.children}</a>;
+  },
+  getHref() {
+    return DomainPath.origin + '/' + this.props.to;
   },
   getClassName() {
     const pathname = removeSlashes(window.location.pathname);
