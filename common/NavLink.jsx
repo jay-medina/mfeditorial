@@ -16,7 +16,7 @@ const NavLink = React.createClass({
   },
   getClassName() {
     const pathname = removeSlashes(window.location.pathname);
-    const to = removeSlashes(this.props.to);
+    const to = removeSlashes(this.getHref());
 
     if(to === pathname) {
       return 'active';
