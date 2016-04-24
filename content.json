@@ -1,3 +1,17 @@
 {
-  "data": "hello world"
+  "header": "Mercedes Fernandez",
+  "sub_header": "Freelance editor",
+  "contact" : {
+    "email": {
+      "text": "If you'd like to get in touch, please email: mercedesfernandez@gmail.com",
+      "title": "Email"
+    },
+    "social" : {
+      "text" : "Twitter, Facebook, LinkedIn, snapchat, cats, meows",
+      "title" : "Social Media"
+    }
+  },
+  "home": {
+    "short_intro" : "Bacon ipsum dolor amet meatloaf alcatra pig tail hamburger. Bacon kielbasa porchetta cupim venison andouille filet mignon kevin. sausage t-bone pastrami alcatra. Short loin jerky andouille ham strip steak cow, tongue pork loin fatback kielbasa brisket. Bacon pork belly pork chop, hamburger tongue shankle ground round venison chuck turducken tail ribeye spare ribs cow. Pastrami cupim pork loin chicken bacon short ribs shoulder filet mignon. Pork chop meatloaf brisket leberkas. Venison pork loin beef ribs sirloin. Landjaeger beef ribs shoulder leberkas. Chuck sausage chicken swine pastrami shank tri-tip kevin turducken prosciutto."
+  }
 }

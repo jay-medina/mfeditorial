@@ -1,5 +1,5 @@
 
 export default {
-  /*origin: ''*/
-  origin: '/mfeditorial'
+  origin: ''
+  /*origin: '/mfeditorial'*/
 };

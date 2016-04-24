@@ -5,7 +5,7 @@ const PATHS = {
   app: path.join(__dirname, 'home/index.jsx'),
   about: path.join(__dirname, 'about/index.jsx'),
   contact: path.join(__dirname, 'contact/index.jsx'),
-  build: path.join(__dirname, 'dist')
+  build: 'dist/'
 };
 
 module.exports = {
@@ -17,6 +17,7 @@ module.exports = {
   },
   output: {
     path: PATHS.build,
+    publicPath: PATHS.build,
     filename: '[name].js'
   },
   resolve: {
@@ -39,6 +40,10 @@ module.exports = {
             test: /\.(jpg|png)$/,
             loader: 'url',
             include: PATHS.images
+          },
+          {
+            test: /\.json/,
+            loader: 'json'
           }
       ]
   },

@@ -22,11 +22,11 @@ const Contact = React.createClass({
   render() {
     return (
       <div className="contactInfo">
-        <ContactContainer className="email" title="Contact Me">
-          If you'd like to get in touch, please email: temp@gmail.com
+        <ContactContainer className="email" title={this.props.content.email.title}>
+          {this.props.content.email.text}
         </ContactContainer>
-        <ContactContainer className="socialMedia" title="Social">
-          Twitter, Facebook, Instagram, LinkedIn
+        <ContactContainer className="socialMedia" title={this.props.content.social.title}>
+          {this.props.content.social.text}
         </ContactContainer>
         <ContactContainer className="portfolio" title="Portfolio">
           Book with a naked guy in front. Book with a naked guy in front.

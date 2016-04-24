@@ -5,8 +5,8 @@ const Header = React.createClass({
   render() {
     return (
       <header className="header">
-        <div className="header--name">Mercedes Fernandez</div>
-        <div className="header--title">Freelance editor</div>
+        <div className="header--name">{this.props.content.header}</div>
+        <div className="header--title">{this.props.content.sub_header}</div>
       </header>
     );
   }
