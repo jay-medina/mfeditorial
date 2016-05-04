@@ -1,23 +1,22 @@
-.mainContainer {
+.aboutContainer {
   background-image: url('../images/book_cover.jpg');
   padding: 6em;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.mainContainer .shortIntro {
+.aboutContainer .contentContainer {
   background-color: rgba(255,255,255,0.8);
   margin: 0 auto;
   padding: 1.25em;
   max-width: 45em;
   line-height: 1.6;
 }
-
-.mainContainer .mercyImage {
+.mercyImage {
   background-image: url('../images/mercedes.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 4em;
-  float:left;
-  margin-right: 0.5em;
+  float:right;
+  margin-left: 0.5em;
 }

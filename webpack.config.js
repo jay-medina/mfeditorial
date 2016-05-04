@@ -4,7 +4,8 @@ const plugins = require('./buildFiles/plugins.js');
 const PATHS = {
   app: path.join(__dirname, 'home/index.jsx'),
   about: path.join(__dirname, 'about/index.jsx'),
-  contact: path.join(__dirname, 'contact/index.jsx'),
+  portfolio: path.join(__dirname, 'portfolio/index.jsx'),
+  services: path.join(__dirname, 'services/index.jsx'),
   build: 'dist/'
 };
 
@@ -12,7 +13,8 @@ module.exports = {
   entry: {
     home: PATHS.app,
     about: PATHS.about,
-    contact: PATHS.contact,
+    portfolio: PATHS.portfolio,
+    services: PATHS.services,
     vendor: ['react', 'react-dom']
   },
   output: {

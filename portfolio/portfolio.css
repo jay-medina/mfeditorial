@@ -1,11 +1,11 @@
-.mainContainer {
+.portfolioContainer {
   background-image: url('../images/book_cover.jpg');
   padding: 6em;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.mainContainer .shortIntro {
+.portfolioContainer .contentContainer {
   background-color: rgba(255,255,255,0.8);
   margin: 0 auto;
   padding: 1.25em;
@@ -13,11 +13,7 @@
   line-height: 1.6;
 }
 
-.mainContainer .mercyImage {
-  background-image: url('../images/mercedes.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 4em;
-  float:left;
-  margin-right: 0.5em;
+.portfolioContainer .title {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
 }
