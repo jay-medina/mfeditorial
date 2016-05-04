@@ -13,5 +13,42 @@
   },
   "home": {
     "short_intro" : "Bacon ipsum dolor amet meatloaf alcatra pig tail hamburger. Bacon kielbasa porchetta cupim venison andouille filet mignon kevin. sausage t-bone pastrami alcatra. Short loin jerky andouille ham strip steak cow, tongue pork loin fatback kielbasa brisket. Bacon pork belly pork chop, hamburger tongue shankle ground round venison chuck turducken tail ribeye spare ribs cow. Pastrami cupim pork loin chicken bacon short ribs shoulder filet mignon. Pork chop meatloaf brisket leberkas. Venison pork loin beef ribs sirloin. Landjaeger beef ribs shoulder leberkas. Chuck sausage chicken swine pastrami shank tri-tip kevin turducken prosciutto."
+  },
+  "about" : {
+    "text" : "I specialize in young adult (NOT children's or middle grade), new adult, and all genres of romance. I take mysteries and women's fiction on a case by case basis (chances are good if there is a thread of romance or paranormal). If you consider your manuscript mystery or women's fiction, feel free to send me a synopsis and I can let you know if I'd feel confident editing it. I have a B.A. in English and a M.S. in Publishing. After a year editing educational textbooks, I found my passion at Kensington Publishing, where I spent more than five years editing romance and young adult fiction. I've been freelancing for 4 years, providing a variety of editorial services for publishers (such as Carina Press and Sourcebooks) and authors. I'm also a member of the Editorial Freelancers Association."
+  },
+  "portfolio": {
+    "title": "Projects & Previous Works",
+    "projects": [
+      {
+        "title": "Killer of big butts",
+        "description": "Big Butts"
+      },
+      {
+        "title": "Killer of big butts II",
+        "description": "Big Butts"
+      },
+      {
+        "title": "Killer of big butts III",
+        "description": "Big Butts"
+      }
+    ]
+  },
+  "services": {
+    "title": "Editorial Services",
+    "types": [
+      {
+        "title" : "Content Edit / Line Edit (1st Pass)",
+        "description" : "Editor checking for development of characters, setting, world building, language/dialogue, writing style, and timeline as well as repetitive word usage, story inconsistencies, and story flow. All developmental concerns will be addressed in an editorial letter that will accompany the edited manuscript."
+      },
+      {
+        "title" : "Content Edit / Line Edit (Each additional Pass)",
+        "description" : "Editor checking for further story development and/or inconsistencies after the initial content/line edit and editorial letter."
+      },
+      {
+        "title" : "Synopsis / Proposal Review",
+        "description" : "Receive marked-up document and overall feedback."
+      }
+    ]
   }
 }
