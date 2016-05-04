@@ -1,7 +1,8 @@
 import $ from 'jquery';
+import DomainPath from '../buildFiles/DomainPath.js';
 
 export function get() {
-  return $.getJSON('../content.json');
+  return $.getJSON(`..${DomainPath.origin}/content.json`);
 }
 
 
