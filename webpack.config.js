@@ -40,10 +40,6 @@ module.exports = {
             test: /\.(jpg|png)$/,
             loader: 'url',
             include: PATHS.images
-          },
-          {
-            test: /\.json/,
-            loader: 'json'
           }
       ]
   },

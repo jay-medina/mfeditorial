@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Page from '../common/Page.jsx';
+import * as Content from '../common/Content.js';
 
 const Contact = React.createClass({
   render() {
@@ -8,10 +9,14 @@ const Contact = React.createClass({
   }
 });
 
-ReactDOM.render(
-  (
-    <Page>
-      <Contact />
-    </Page>
-  ),
-  document.getElementById('app'));
+function render(content) {
+  ReactDOM.render(
+    (
+      <Page content={content}>
+        <Contact />
+      </Page>
+    ),
+    document.getElementById('app'));
+}
+
+Content.get().done(render);

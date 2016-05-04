@@ -5,16 +5,15 @@ import Header from '../common/Header.jsx';
 import NavMenu from '../common/NavMenu.jsx';
 import Contact from './Contact.jsx';
 import Footer from '../common/Footer.jsx';
-import content from '../content.json';
 
 const Page = React.createClass({
   render() {
     return (
       <div>
-        <Header content={content} />
+        <Header content={this.props.content} />
         <NavMenu />
         {this.props.children}
-        <Contact content={content.contact} />
+        <Contact content={this.props.content.contact} />
         <Footer />
       </div>
     );
