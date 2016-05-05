@@ -1,6 +1,6 @@
 .portfolioContainer {
   background-image: url('../images/book_cover.jpg');
-  padding: 6em;
+  padding: 1em;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,4 +16,10 @@
 .portfolioContainer .title {
   font-size: 1.2em;
   margin-bottom: 0.5em;
+}
+
+@media screen and (min-width: 800px) {
+  .portfolioContainer {
+    padding: 6em;
+  }
 }

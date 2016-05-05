@@ -1,6 +1,6 @@
 .aboutContainer {
   background-image: url('../images/book_cover.jpg');
-  padding: 6em;
+  padding: 1em;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -19,4 +19,10 @@
   padding: 4em;
   float:right;
   margin-left: 0.5em;
+}
+
+@media screen and (min-width: 800px) {
+  .aboutContainer {
+    padding: 6em;
+  }
 }
